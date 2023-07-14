@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,700,400|Roboto:300,400|PT+Sans:400|Inter:300,700,300italic");
+@font-face {
+    font-family: "Font Awesome 5 Free-Solid";
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-solid-900.woff2') format('woff2'),
+         url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-solid-900.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: "Font Awesome 5 Free-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-regular-400.woff2') format('woff2'),
+         url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-regular-400.woff') format('woff');
+  }
+
+
+.divrslides-inner {
+    align-items: flex-start;
+    background-color: #ffffff01;
+    box-shadow: 0px 0px 0px 6px #dddddd, 0px 0px 0px 5px #ffffff;
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+    width: 1130px;
+}
+
+.list-1 {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    width: 1130px;
+}
+
+.building {
+    height: 300px;
+    min-width: 1130px;
+    position: relative;
+}
+
+list-2 {
+    align-items: flex-start;
+    display: flex;
+    gap: 12px;
+    left: 0px;
+    padding: 0px 536.5px 13.19px;
+    position: absolute;
+    top: 262px;
+    width: 1130px;
+}
+
+.button-link-1,
+.button-link-2,
+.button-link-3 {
+  background-color: var(--black-2);
+  border-radius: 20px;
+  box-shadow: inset 0px 0px 3px #0000004c;
+  height: 11px;
+  min-width: 11px;
+  position: relative;
+}
+
+.button-link-1.active,
+.button-link-2.active,
+.button-link-3.active {
+  /* Add your styles for the active button */
+  /* For example: change background color or add a border */
+  /* Example: */
+  background-color: #000000b2;
+}

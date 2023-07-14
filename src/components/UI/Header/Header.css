@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,700,400|Roboto:300,400|PT+Sans:400|Inter:300,700,300italic");
+@font-face {
+    font-family: "Font Awesome 5 Free-Solid";
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-solid-900.woff2') format('woff2'),
+         url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-solid-900.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: "Font Awesome 5 Free-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-regular-400.woff2') format('woff2'),
+         url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-regular-400.woff') format('woff');
+  }
+
+
+.header {
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    height: auto;
+    justify-content: flex-start;
+    min-height: 461px;
+    width: 1440px;
+}
+
+.pre-header {
+    background-color: var(--white);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: var(--bon-jour);
+    height: 1px;
+    width: 1440px;
+}
+
+.divheader {
+    align-items: flex-start;
+    background-color: var(--white);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: var(--bon-jour);
+    display: flex;
+    justify-content: center;
+    padding: 0px 150px 1px;
+    position: relative;
+    width: 1440px;
+}
+
+.divheader-core {
+    height: 121.28px;
+    min-width: 1140px;
+    position: relative;
+}
+
+.PeruLogo {
+    height: 85px;
+    left: 0;
+    position: absolute;
+    top: 20px;
+    width: 172px;
+}
+
+.list {
+    align-items: center;
+    display: flex;
+    height: 121px;
+    left: 198px;
+    min-width: 942px;
+    position: absolute;
+    top: 0;
+}
+
+.item-link-publications {
+    height: 29px;
+    letter-spacing: 0;
+    line-height: 28.8px;
+    margin-left: 15px;
+    margin-top: 3.72px;
+    min-width: 95px;
+    white-space: nowrap;
+}
+
+.item-link-news {
+    height: 29px;
+    letter-spacing: 0;
+    line-height: 28.8px;
+    margin-left: 30px;
+    margin-top: 3.72px;
+    min-width: 43px;
+    white-space: nowrap;
+}
+
+.item-link-contact-us {
+    height: 29px;
+    letter-spacing: 0;
+    line-height: 28.8px;
+    margin-left: 30px;
+    margin-top: 3.72px;
+    min-width: 85px;
+    white-space: nowrap;
+}
+
+.PharmacyLogo {
+    height: 55px;
+    margin-left: 70px;
+    margin-top: 4.72px;
+    object-fit: cover;
+    width: 254px;
+}
+  

@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,700,400|Roboto:300,400|PT+Sans:400|Inter:300,700,300italic");
+@font-face {
+    font-family: "Font Awesome 5 Free-Solid";
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-solid-900.woff2') format('woff2'),
+         url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-solid-900.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: "Font Awesome 5 Free-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-regular-400.woff2') format('woff2'),
+         url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-regular-400.woff') format('woff');
+  }
+
+
+.item-link-2 {
+    align-items: flex-end;
+    align-self: flex-start;
+    display: flex;
+    gap: 6px;
+    height: 60px;
+    min-width: 93px;
+    padding: 16.8px 15px;
+}
+
+.item-link-3 {
+    align-items: flex-end;
+    align-self: flex-start;
+    display: flex;
+    gap: 5px;
+    height: 60px;
+    min-width: 228px;
+    padding: 16.8px 15px;
+}
+
+.programs-and-research {
+    height: 29px;
+    letter-spacing: 0;
+    line-height: 28.8px;
+    min-width: 183px;
+    white-space: nowrap;
+}
+
+.about {
+    height: 29px;
+    letter-spacing: 0;
+    line-height: 28.8px;
+    min-width: 47px;
+    white-space: nowrap;
+}
+
+.text-9 {
+    height: 29px;
+    letter-spacing: 0;
+    line-height: 28.8px;
+    margin-bottom: 1px;
+    min-width: 10px;
+    white-space: nowrap;
+}
+
+.text-10 {
+    height: 29px;
+    letter-spacing: 0;
+    line-height: 28.8px;
+    margin-bottom: 1px;
+    min-width: 10px;
+    white-space: nowrap;
+}
