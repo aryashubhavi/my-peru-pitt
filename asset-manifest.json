@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/my-peru-pitt/static/css/main.4747a8ac.css",
+    "main.js": "/my-peru-pitt/static/js/main.ccac81bb.js",
+    "static/js/787.4453cf75.chunk.js": "/my-peru-pitt/static/js/787.4453cf75.chunk.js",
+    "static/media/Building.jpg": "/my-peru-pitt/static/media/Building.21a2f237057f3266c1bf.jpg",
+    "static/media/Our-people.jpg": "/my-peru-pitt/static/media/Our-people.c05d70efe238595af0b8.jpg",
+    "static/media/Doctors.jpg": "/my-peru-pitt/static/media/Doctors.eb03942b33eddded3ddc.jpg",
+    "static/media/Logo_SchoolOfPharmacy.png": "/my-peru-pitt/static/media/Logo_SchoolOfPharmacy.799d063e3ec4efbe9c09.png",
+    "static/media/paper-experon.jpg": "/my-peru-pitt/static/media/paper-experon.28890c839f38399f26c0.jpg",
+    "static/media/PERU_logo.png": "/my-peru-pitt/static/media/PERU_logo.b329403e8dee371a8303.png",
+    "index.html": "/my-peru-pitt/index.html",
+    "main.4747a8ac.css.map": "/my-peru-pitt/static/css/main.4747a8ac.css.map",
+    "main.ccac81bb.js.map": "/my-peru-pitt/static/js/main.ccac81bb.js.map",
+    "787.4453cf75.chunk.js.map": "/my-peru-pitt/static/js/787.4453cf75.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4747a8ac.css",
+    "static/js/main.ccac81bb.js"
+  ]
+}
