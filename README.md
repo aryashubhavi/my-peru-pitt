@@ -6,5 +6,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Run `git clone https://github.com/aryashubhavi/my-peru-pitt.git`
 Then cd into project directory and 
-`npm install`
-`npm start`
+1. `npm install`
+2. `npm start`
