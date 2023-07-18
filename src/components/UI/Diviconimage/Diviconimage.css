@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,700,400|Roboto:300,400|PT+Sans:400|Inter:300,700,300italic");
+@font-face {
+    font-family: "Font Awesome 5 Free-Solid";
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-solid-900.woff2') format('woff2'),
+         url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-solid-900.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: "Font Awesome 5 Free-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-regular-400.woff2') format('woff2'),
+         url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-regular-400.woff') format('woff');
+  }
+
+ /* Styleguide */ 
+ :root {
+    /* COLORS */
+    --asparagus: rgba(111,169,102,1);
+   
+    --violet-purple: rgba(134,109,182,1);
+    --white: rgba(255,255,255,1);
+
+    --font-family-font_awesome_5_free-solid: "Font Awesome 5 Free-Solid";
+    
+   
+  }
+
+  .fontawesome5free-solid-normal-white-21px{
+    color: var(--white);
+    font-family: var(--font-family-font_awesome_5_free-solid);
+    font-size: 21px;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+   /* Stylesheet */ 
+
+   .diviconimage-2 {
+    align-items: flex-start;
+    background-color: var(--violet-purple);
+    border-radius: 15px;
+    display: flex;
+    padding: 40px; /* Adjust the padding values to increase the size */
+    position: relative;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    width: 40px; /* Adjust the width to match the new size */
+    height: 40px;
+}
+
+
+
+.text-1 {
+    letter-spacing: 0;
+    line-height: 21px;
+    position: relative;
+    text-align: center;
+    transform: rotate(-30deg);
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.diviconimage-2.diviconimage-3, 
+.diviconimage-2.diviconimage-3.pseudo-4,
+.diviconimage-2.diviconimage-3.pseudo-5 {
+    background-color: var(--asparagus);}

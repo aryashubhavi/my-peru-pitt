@@ -16,17 +16,46 @@
   }
 
 
-.header {
+ /* Styleguide */ 
+ :root {
+    /* COLORS */
+    --bon-jour: rgba(225,225,229,1);
+    --white: rgba(255,255,255,1);
+    --chathams-blue: rgba(17,81,114,1);
+    --font-family-raleway: "Raleway";
+
+    --font-size-12: 16px;
+  }
+  
+   /* Stylesheet */ 
+
+.raleway-bold-chathams-blue-16px{
+    color: var(--chathams-blue);
+    font-family: var(--font-family-raleway);
+    font-size: var(--font-size-12);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .header {
     align-items: center;
     background-color: transparent;
     display: flex;
     flex-direction: column;
-    flex-shrink: 1;
-    height: auto;
-    justify-content: flex-start;
-    min-height: 461px;
-    width: 1440px;
-}
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    z-index: 1;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: var(--bon-jour);
+  }
 
 .pre-header {
     background-color: var(--white);
@@ -34,45 +63,49 @@
     border-bottom-width: 1px;
     border-color: var(--bon-jour);
     height: 1px;
-    width: 1440px;
+    width: 100%;
+
 }
 
 .divheader {
-    align-items: flex-start;
     background-color: var(--white);
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-color: var(--bon-jour);
     display: flex;
     justify-content: center;
-    padding: 0px 150px 1px;
     position: relative;
-    width: 1440px;
-}
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  
+  .divheader-core {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px; /* Adjust the padding as needed */
+    height: 100%;
+    width: 100%;
+    margin-left: 0px;
+  }
+  
 
-.divheader-core {
-    height: 121.28px;
-    min-width: 1140px;
-    position: relative;
-}
+  .PeruLogo {
+    height: 100px;
+    margin-left: 50px;
+    margin-right: 50px; /* Add this line to create space between the logo and the list content */
+  }
 
-.PeruLogo {
-    height: 85px;
-    left: 0;
-    position: absolute;
-    top: 20px;
-    width: 172px;
-}
 
 .list {
     align-items: center;
     display: flex;
+    justify-content: center; /* Update this line to center the list items horizontally */
     height: 121px;
-    left: 198px;
-    min-width: 942px;
+    width: 100%;
     position: absolute;
     top: 0;
-}
+    left: 60%; /* Add this line to center the list items horizontally */
+    transform: translateX(-50%); /* Add this line to center the list items horizontally */
+  }
 
 .item-link-publications {
     height: 29px;

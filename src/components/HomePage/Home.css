@@ -15,7 +15,41 @@
          url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-regular-400.woff') format('woff');
   }
 
-  .screen a {
+ /* Styleguide */ 
+:root {
+  /* COLORS */
+  --chathams-blue: rgba(17,81,114,1);
+
+  --white: rgba(255,255,255,1);
+
+  /*FONTS */
+
+  --font-family-pt_sans: "PT Sans";
+  --font-size-xxxxx1: 24px;
+  --font-size-xxxx1:40px;
+  --font-family-raleway: "Raleway";
+  --font-size-m: 60px;
+}
+
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Updated: Center the header content */
+  align-items: center; 
+  position: relative; 
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center; /* Center the carousel horizontally */
+  align-items: center; /* Center the carousel vertically */
+  margin-top: 20px; /* Add a positive margin to create space between header and carousel */
+  position: relative; /* Add position relative */
+  z-index: 0; /* Set a lower z-index for the carousel */
+}
+
+ /* Stylesheet */ 
+  .homeScreen a {
     display: contents;
     text-decoration: none;
   }
@@ -45,8 +79,68 @@
     border: 1px none;
     display: flex;
     flex-direction: column;
-    height: 1559.53px;
+    height: 1400.53px;
+    margin: 0 auto; /* Center the container horizontally */
+    max-width: 100%; /* Set the maximum width to 100% of the viewport */
+    overflow-x: hidden; /* Hide horizontal overflow */
     position: relative;
-    width: 1440px;
   }
 
+  .divintroaction-core {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 50px;
+    min-height: 178px;
+    padding: 0 57.4px;
+    width: 1140px;
+    justify-content: center;
+  }
+
+  .heading-3-program {
+    color: var(--chathams-blue);
+    font-family: var(--font-family-pt_sans);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    height: 63px;
+    letter-spacing: 0;
+    line-height: 63px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    margin: 0 auto; /* Add this line to center the heading horizontally */
+
+  }
+
+  .peru-is-dedicated-to {
+    color: #6d6f71;
+    font-family: var(--font-family-raleway);
+    font-size: 36px;
+    font-weight: 300px;
+    height: 121px;
+    letter-spacing: 0;
+    line-height: 50.4px;
+    position: relative;
+    text-align: center;
+  }
+
+  .divsection-home-inner {
+    align-items: flex-start;
+    display: flex;
+    gap: 29.62px;
+    margin-top: 50px;
+    padding: 0px 0.06px 100px 0px;
+    position: relative;
+    width: 100%;
+    max-width: 1140px; /* Add this line to set a maximum width */
+    margin: 0 auto; /* Add this line to center the div horizontally */
+  }
+
+  .p {
+    align-items: flex-start;
+    display: flex;
+    padding: 0px 63.23px 0.38px 0px;
+    position: relative;
+    width: 360.23px;
+}

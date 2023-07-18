@@ -1,13 +1,14 @@
 import React from 'react';
 import './SCOPEstatewide.css';
-
+import Diviconimage from '../../Diviconimage/Diviconimage';
 
 const SCOPEstatewide = (props) => {
     const {
-        //commmunityHealthInitiatives,
-        //technicalAssistance,
-        //readMore1,
-        //text5,
+        heading3ScopeStatewide,
+        theScopeStatewide,
+        registerNow,
+        text11,
+        diviconimage2Props,
     } = props;
 
     return (
@@ -20,7 +21,7 @@ const SCOPEstatewide = (props) => {
                     <div className="heading-3-scope-statewide valign-text-middle ptsans-normal-black-18px">
                         {heading3ScopeStatewide}
                     </div>
-                    <p className="the-scope-statewide valign-text-middle raleway-normal-mine-shaft-14px-22">
+                    <p className="the-scope-statewide valign-text-middle raleway-normal-mine-shaft-14px-2">
                         {theScopeStatewide}
                     </p>
                     <div className="link-2">

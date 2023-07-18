@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,700,400|Roboto:300,400|PT+Sans:400|Inter:300,700,300italic");
+@font-face {
+    font-family: "Font Awesome 5 Free-Solid";
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-solid-900.woff2') format('woff2'),
+         url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-solid-900.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: "Font Awesome 5 Free-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-regular-400.woff2') format('woff2'),
+         url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-regular-400.woff') format('woff');
+  }
+
+
+ /* Styleguide */ 
+ :root {
+    /* COLORS */
+ 
+    --contessa: rgba(192, 102, 107, 1);
+    --white: rgba(255,255,255,1);
+    --mine-shaft: rgba(51,51,51,1);
+    --chathams-blue: rgba(17,81,114,1);
+    --black: rgba(0,0,0,1);
+  
+    /*FONTS */
+    --font-family-pt_sans: "PT Sans";
+    --font-family-raleway: "Raleway";
+
+    --font-size-xxx1: 20px;
+    --font-family-font_awesome_5_free-regular: "Font Awesome 5 Free-Regular";
+    --font-size-s: 14px;
+    --font-family-font_awesome_5_free-solid: "Font Awesome 5 Free-Solid";
+  }
+
+  .ptsans-normal-black-18px {
+    color: var(--black);
+    font-family: var(--font-family-pt_sans);
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+ }
+
+.raleway-normal-mine-shaft-14px-2 {
+    color: var(--mine-shaft);
+    font-family: var(--font-family-raleway);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+ }
+
+.raleway-bold-chathams-blue-14px {
+    color: var(--chathams-blue);
+    font-family: var(--font-family-raleway);
+    font-size: var(--font-size-s);
+    font-weight: 700;
+    font-style: normal;
+ }
+
+.fontawesome5free-solid-normal-chathams-blue-16-8px {
+    color: var(--chathams-blue);
+    font-family: var(--font-family-font_awesome_5_free-solid);
+    font-size: 16.8px;
+    font-weight: 400;
+    font-style: normal;
+ }
+   /* Stylesheet */ 
+
+.valign-text-middle {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+
+.diviconimage {
+    align-items: flex-start;
+    background-color: var(--contessa);
+    border-radius: 5px;
+    display: flex;
+    padding: 40px; /* Adjust the padding values to increase the size */
+    position: relative;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    width: 40px; /* Adjust the width to match the new size */
+    height: 40px;
+}
+
+.pseudo {
+    background-color: var(--contessa);
+    border-radius: 5px;
+    height: 63px;
+    left: 13px;
+    position: absolute;
+    top: -9px;
+    transform: rotate(53.17deg);
+    width: 26px;
+}
+
+.pseudo-1 {
+    background-color: var(--contessa);
+    border-radius: 5px;
+    height: 80px;
+    left: 13px;
+    position: absolute;
+    top: -4px;
+    transform: rotate(-30.34deg);
+    width: 48px;
+}
+
+.text-3 {
+    color: var(--white);
+    font-family: var(--font-family-font_awesome_5_free-regular);
+    font-size: var(--font-size-xxx1);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 21px;
+    position: relative;
+    text-align: center;
+    transform: rotate(-30deg);
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.diviconmain-1 {
+    height: 179.8px;
+    min-width: 220.77px;
+    overflow: hidden;
+    position: relative;
+}
+
+.flex-col-1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 164px;
+    width: 221px;
+}
+
+.innovative-health-system-initiatives {
+    height: 36px;
+    letter-spacing: 0;
+    line-height: 18px;
+    margin-left: 0.54px;
+    margin-top: -1px;
+    min-width: 197px;
+    position: relative;
+    text-align: center;
+}
+
+.support-the-implementation {
+    height: 76px;
+    letter-spacing: 0;
+    line-height: 25.2px;
+    margin-right: 1.02px;
+    margin-top: 17px;
+    min-width: 220px;
+    position: relative;
+    text-align: center;
+}
+
+.link-1 {
+    align-items: flex-start;
+    display: flex;
+    gap: 4px;
+    height: 16px;
+    margin-left: 0.25px;
+    margin-top: 20px;
+    min-width: 80px;
+}
+
+ .read-more {
+    height: 26px;
+    letter-spacing: 0;
+    line-height: 25.2px;
+    margin-top: -6px;
+    min-width: 73px;
+    text-align: center;
+    white-space: nowrap;
+ }
+
+
+ .text {
+    height: 31px;
+    letter-spacing: 0;
+    line-height: 30.2px;
+    margin-top: -9px;
+    min-width: 9px;
+    text-align: center;
+    white-space: nowrap;
+ }
+
+ .p {
+    align-items: flex-start;
+    display: flex;
+    padding: 0px 63.23px 0.38px 0px;
+    position: relative;
+    width: 360.23px;
+}

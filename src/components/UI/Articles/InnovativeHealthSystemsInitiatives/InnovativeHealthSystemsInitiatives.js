@@ -1,30 +1,28 @@
 import React from 'react';
 import './InnovativeHealthSystemsInitiatives.css';
 
-
 const InnovativeHealthSystemsInitiatives = (props) => {
     const {
-        commmunityHealthInitiatives,
-        technicalAssistance,
-        readMore1,
-        text5,
+        innovativeHealthSystemInitiatives,
+        supportTheImplementation,
+        readMore2,
+        text6,
+        text7,
     } = props;
 
     return (
         <div className="article">
             <div className="diviconimage">
-                <div className="pseudo"></div>
-                <div className="pseudo-1"></div>
-                <div className-="text-3 valign-text-middle">
+                <div className="text-3 valign-text-middle">
                     {text6}
                 </div>
             </div>
             <div className="diviconmain-1">
                 <div className="flex-col-1">
-                    <div className="innovative-health-system-initiaties valign-text-middle ptsans-normal-black-18px">
+                    <div className="innovative-health-system-initiatives valign-text-middle ptsans-normal-black-18px">
                         {innovativeHealthSystemInitiatives}
                     </div>
-                    <p className="support-the-implemen valign-text-middle raleway-normal-mine-shaft-14px-22">
+                    <p className="support-the-implementation valign-text-middle raleway-normal-mine-shaft-14px-2">
                         {supportTheImplementation}
                     </p>
                     <div className="link-1">

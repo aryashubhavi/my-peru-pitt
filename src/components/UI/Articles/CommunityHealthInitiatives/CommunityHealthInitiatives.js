@@ -1,6 +1,6 @@
 import React from 'react';
 import './CommunityHealthInitiatives.css';
-
+import Diviconimage from '../../Diviconimage/Diviconimage';
 
 const CommunityHealthInitiatives = (props) => {
     const {
@@ -8,6 +8,7 @@ const CommunityHealthInitiatives = (props) => {
         technicalAssistance,
         readMore1,
         text5,
+        diviconimage1Props,
     } = props;
 
     return (
@@ -18,7 +19,7 @@ const CommunityHealthInitiatives = (props) => {
                     <div className="community-health-initiatives valign-text-middle ptsans-normal-black-18px">
                         {commmunityHealthInitiatives}
                     </div>
-                    <p className="technical-assistance valign-text-middle raleway-normal-mine-shaft-14px-22">
+                    <p className="technical-assistance valign-text-middle raleway-normal-mine-shaft-14px-2">
                         {technicalAssistance}
                     </p>
                     <div className="link">

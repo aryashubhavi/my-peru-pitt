@@ -1,6 +1,5 @@
 import React from 'react';
 import './Header.css';
-import Carousel from '../Carousel/Carousel';
 import {ItemLink, ItemLink2} from '../ItemLink/ItemLink';
 
 import PeruLogo from '../assets/images/PERU_logo.png';
@@ -35,7 +34,7 @@ const Header = (props) => {
                     </div>
                 </div>
             </div>
-            <Carousel />
+            
         </header>
     );
 }

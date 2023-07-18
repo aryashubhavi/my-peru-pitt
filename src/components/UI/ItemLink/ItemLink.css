@@ -16,6 +16,41 @@
   }
 
 
+ /* Styleguide */ 
+ :root {
+    /* COLORS */
+    --chathams-blue: rgba(17,81,114,1);
+    --font-family-raleway: "Raleway";
+    --font-family-font_awesome_5_free-solid: "Font Awesome 5 Free-Solid";
+
+    --font-size-12: 16px;
+    --font-size-m2: 15px;
+  }
+  
+   /* Stylesheet */ 
+
+.valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+.raleway-bold-chathams-blue-16px{
+    color: var(--chathams-blue);
+    font-family: var(--font-family-raleway);
+    font-size: var(--font-size-12);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.fontawesome5free-solid-normal-chathams-blue-15px {
+    color: var(--chathams-blue);
+    font-family: var(--font-family-font_awesome_5_free-solid);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+}
+
 .item-link-2 {
     align-items: flex-end;
     align-self: flex-start;

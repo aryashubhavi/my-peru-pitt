@@ -15,15 +15,23 @@
          url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-regular-400.woff') format('woff');
   }
 
+ /* Styleguide */ 
+ :root {
+  /* COLORS */
+  --black-2: rgba(0,0,0,0.4);
+}
 
-.divrslides-inner {
-    align-items: flex-start;
-    background-color: #ffffff01;
-    box-shadow: 0px 0px 0px 6px #dddddd, 0px 0px 0px 5px #ffffff;
-    display: flex;
-    margin-top: 20px;
-    position: relative;
-    width: 1130px;
+ /* Stylesheet */ 
+
+
+ .divrslides-inner {
+  align-items: flex-start;
+  background-color: #ffffff01;
+  box-shadow: 0px 0px 0px 6px #dddddd, 0px 0px 0px 5px #ffffff;
+  display: flex;
+  margin-top: 20px;
+  position: relative;
+  width: 90%; /* Update this line to make the carousel responsive */
 }
 
 .list-1 {

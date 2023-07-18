@@ -3,11 +3,7 @@ import './Footer.css';
 
 import PharmacyLogo from '../assets/images/Logo_SchoolOfPharmacy.png';
 
-function Footer(props) {
-    const {
-        PharmacyLogo,
-    } = props;
-
+const Footer = () => {
     return (
         <footer className="footer">
             <div className="divfooter">
@@ -18,10 +14,10 @@ function Footer(props) {
                         </div>
                         <div className="divtextwidget">
                             <div className="p">
-                                <p classname="university-of-pittsb valign-text-middle raleway-normal-mine-shaft-14px2">
-                                    University of Pittsburgh, School of Pharmacy <br />
-                                    Program Evaluation and Research Unit (PERU)
-                                </p>
+                            <p className="university-of-pittsb valign-text-middle raleway-normal-mine-shaft-14px-2">
+                                University of Pittsburgh, School of Pharmacy <br />
+                                Program Evaluation and Research Unit (PERU)
+                            </p>
                             </div>
                             <div className="p-1">
                                 <p className="link-contact-us valign-text-middle raleway-bold-white-14px">
@@ -29,7 +25,7 @@ function Footer(props) {
                                         <span className="raleway-bold-chathams-blue-14px">
                                             Contact Us <br />
                                         </span>
-                                        <span className="raleway-normal-mine-shaft-14px2">
+                                        <span className="raleway-normal-mine-shaft-14px-2">
                                             5607 Baum Blvd, Pittsburgh, PA 15206 <br />
                                             412-383-0217
                                         </span>
@@ -41,7 +37,7 @@ function Footer(props) {
                     <div className="divfooter-col3">
                         <img className="aside-logo_-school-of-pharmacy" src={PharmacyLogo} alt="PharmacyLogo" />
                         <div className="aside-link-input">
-                            <div className="logo valign-text-middle raleway-normal-white-14px">
+                            <div className="login valign-text-middle raleway-normal-white-14px">
                                 Login
                             </div>
                         </div>
